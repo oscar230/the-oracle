@@ -1,0 +1,7 @@
+[Defaults]
+verbosity = info
+build_delay = 2
+delay-noise = 2
+analysis_dir = exitmap_scans
+first_hop = EDAF30C58D6CCF359EA062C668C7180A17076440
+country =
