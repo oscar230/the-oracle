@@ -1,4 +1,9 @@
 # The Oracle
+## Thesis
+This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at Karlstad University.
+Dissertation will be avaliavble online, soon.
+
+## Introduction
 A website oracle operating on Tor exit relays.
 * Author: Oscar Andersson [oscaande.se](https://www.oscaande.se)
 * Organization: Karlstads University [kau.se](https://www.kau.se)
