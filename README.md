@@ -1,8 +1,7 @@
 # The Oracle
 ## Thesis
-This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at Karlstad University.
-Dissertation will be avaliavble online, soon.
-
+This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at [Karlstad University](www.kau.se). 🎉 The thesis [dissertation is avaliable for download here](http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-82564), results are derived from data collected from [release 1.0.0](https://github.com/oscar230/the-oracle/releases/tag/1.0.0) of this repository. ✨ Questions regarding the thesis should be directed towards my email address [found here (with PGP)](http://keys.gnupg.net/pks/lookup?op=get&search=0xCA13F309AD2565AA), for everything else, create an issue.
+<br><img src="https://styleguide.torproject.org/static/images/tb-onboarding/circumvention.svg" width="200px" height="auto" alt="A computer flying like a helicopter in the clouds above the praying eyes of the adversary.">
 ## Introduction
 A website oracle operating on Tor exit relays.
 * Author: Oscar Andersson [oscaande.se](https://www.oscaande.se)
@@ -10,13 +9,10 @@ A website oracle operating on Tor exit relays.
 * Course: Examnesarbete DVGC25
 * Term: Autmn 2020 (HT2020)
 * Licence: GPL-3.0 License, see license file or [gpl-3.0 on gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
 ## NOTICE
 Do not use this on exit nodes and relays that you do not own!
-
 ## Overview
-This is tool that exploits DNS cache in the Tor exit nodes. 
-
+This is tool that exploits DNS cache in the Tor exit nodes.
 ## Requirements
 Makefile supose that a UNIX enviorment is used. On Windows, manual building is required.
 This repository requires python 3 and the dependencies requires python 2.
@@ -44,7 +40,6 @@ install using `python2 -m pip install stem`.
 These tools can be built using the makefile in this repository. More about this in "Running chapter".
 * [exitmap](https://github.com/NullHypothesis/exitmap) (2019.05.30) by [Philipp Winter](https://nymity.ch/)
 * [torsocks](https://git.torproject.org/torsocks.git) (2.3.0) by [The Tor Project](https://torproject.org)
-
 ## Using the tool
 ### Setup
 * All requirements can simply be aquired from running `make` or install [exitmap](https://github.com/NullHypothesis/exitmap) manually, then place the contents of `src/` in exitmaps modules folder and copy `theoracle.conf.example` to `theoracle.conf` to the same direcotry.
@@ -53,8 +48,8 @@ These tools can be built using the makefile in this repository. More about this 
 To reset the tool, run `make clean`. You will then have do redo the setup procedure, altough note that the configuration file is persistent.
 ### Run
 Run the modules with exitmap using `./exitmap/bin/exitmap A --first-hop B --exit C --config-file exitmaprc` where A is a module, B is the fingerprint of the first hop relay and C is the fingerprint of the targeted exit relay. The supplied exitmap configuration file is called `exitmaprc` and should be specificed using `--config-file exitmaprc`. Read [exitmap documentation](https://github.com/NullHypothesis/exitmap/blob/master/README.md) or run `./exitmap/bin/exitmap` for more commands, modules and information.
-
 ## This could not have been possible without:
+* [Tobias Pulls](https://www.kau.se/forskare/tobias-pulls) for inpspiring and consulting me.
 * [Philipp Winter](https://nymity.ch/) for creating the wonderfull tool [exitmap](https://github.com/NullHypothesis/exitmap).
-
-> And don't worry about the vase.
+* The privacy community! ❤️
+> And don't worry about [the vase](https://i.pinimg.com/originals/ba/6f/69/ba6f692a8cc8db6796f26d0a6e2b8ed1.gif).
