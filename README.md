@@ -1,7 +1,9 @@
 # The Oracle
-## Thesis
-This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at [Karlstad University](www.kau.se). 🎉 The thesis [dissertation is avaliable for download here](http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-82564), results are derived from data collected from [release 1.0.0](https://github.com/oscar230/the-oracle/releases/tag/1.0.0) of this repository. ✨ Questions regarding the thesis should be directed towards my email address [found here (with PGP)](http://keys.gnupg.net/pks/lookup?op=get&search=0xCA13F309AD2565AA), for everything else, create an issue.
+## Thesis, questions and contributions
+This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at [Karlstad University](www.kau.se). 🎉 The thesis [dissertation is avaliable for download here](http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-82564), results are derived from data collected from [release 1.0.0](https://github.com/oscar230/the-oracle/releases/tag/1.0.0) of this repository. ✨ Questions regarding the thesis should be directed towards my email address [found here (with PGP)](http://keys.gnupg.net/pks/lookup?op=get&search=0xCA13F309AD2565AA), for everything else, create an issue. Yes I'm a very proud boy. 😅
 <br><img src="https://styleguide.torproject.org/static/images/tb-onboarding/circumvention.svg" width="200px" height="auto" alt="A computer flying like a helicopter in the clouds above the praying eyes of the adversary.">
+* Im looking into refactoring this code.
+* A rewrite would be fun, if I can find ways of recreating _exitmap_ and _stem_ in Go or C# I will gladly rewrite this in another language.
 ## Introduction
 A website oracle operating on Tor exit relays.
 * Author: Oscar Andersson [oscaande.se](https://www.oscaande.se)
@@ -9,7 +11,7 @@ A website oracle operating on Tor exit relays.
 * Course: Examnesarbete DVGC25
 * Term: Autmn 2020 (HT2020)
 * Licence: GPL-3.0 License, see license file or [gpl-3.0 on gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html).
-## NOTICE
+## Legal notice
 Do not use this on exit nodes and relays that you do not own!
 ## Overview
 This is tool that exploits DNS cache in the Tor exit nodes.
