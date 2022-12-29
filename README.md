@@ -1,9 +1,11 @@
 # The Oracle
 ## Thesis, questions and contributions
-This is a project created for [Oscar Andersson](https://github.com/oscar230)s bachelor thesis at [Karlstad University](www.kau.se). 🎉 The thesis [dissertation is avaliable for download here](http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-82564), results are derived from data collected from [release 1.0.0](https://github.com/oscar230/the-oracle/releases/tag/1.0.0) of this repository. ✨ Questions regarding the thesis should be directed towards my email address [found here (with PGP)](http://keys.gnupg.net/pks/lookup?op=get&search=0xCA13F309AD2565AA), for everything else, create an issue. Yes I'm a very proud boy. 😅
+- This is a project created for [Oscar Andersson](https://github.com/oscar230)'s bachelor thesis at [KAU](www.kau.se). 🎉
+- The thesis [dissertation is avaliable for download here](http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-82564), results are derived from data collected from [release 1.0.0](https://github.com/oscar230/the-oracle/releases/tag/1.0.0) of this repository. ✨
+- Questions regarding the thesis should be directed towards my email address [found here (with PGP)](http://keys.gnupg.net/pks/lookup?op=get&search=0xCA13F309AD2565AA), for everything else, create an issue.
+
 <br><img src="https://styleguide.torproject.org/static/images/tb-onboarding/circumvention.svg" width="200px" height="auto" alt="A computer flying like a helicopter in the clouds above the praying eyes of the adversary.">
-* Im looking into refactoring this code.
-* A rewrite would be fun, if I can find ways of recreating _exitmap_ and _stem_ in Go or C# I will gladly rewrite this in another language.
+
 ## Introduction
 A website oracle operating on Tor exit relays.
 * Author: Oscar Andersson [oscaande.se](https://www.oscaande.se)
@@ -11,15 +13,19 @@ A website oracle operating on Tor exit relays.
 * Course: Examnesarbete DVGC25
 * Term: Autmn 2020 (HT2020)
 * Licence: GPL-3.0 License, see license file or [gpl-3.0 on gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
 ## Legal notice
-Do not use this on exit nodes and relays that you do not own!
+- Do not use this on exit nodes and relays that you do not own!
+- This code is for research purposes only.
+
 ## Overview
 This is tool that exploits DNS cache in the Tor exit nodes.
+
 ## Requirements
-Makefile supose that a UNIX enviorment is used. On Windows, manual building is required.
-This repository requires python 3 and the dependencies requires python 2.
-The current version of the tools is noted in case future versions dont support backwards compatability. (as of 2020-10-28)
+- Makefile supose that a UNIX enviorment is used. On Windows, use [CYGWIN](https://www.cygwin.com/) or event better Microsoft's [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install).
+- This repository requires python 3 and the dependencies requires python 2.
 ### Command line tools
+The current version of the tools is noted below in case future versions dont support backwards compatability. (as of 2020-10-28)
 install using `pacman -S python python2 pip git tor` on Arch based systems and `apt-get install python python2 python-pip git tor` on Debian based systems.
 * python2	(2.7.18)
 * python3	(3.8.5)
